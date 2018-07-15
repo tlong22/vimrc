@@ -1,1 +1,1 @@
-Credit: jinrc(https://github.com/jskang/jinrc)
+Credit: [jinrc](https://github.com/jskang/jinrc)
