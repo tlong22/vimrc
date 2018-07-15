@@ -24,7 +24,9 @@ git clone https://github.com/xolox/vim-misc.git
 git clone https://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/Vimjas/vim-python-pep8-indent.git
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
-git clone https://github.com/dracula/vim.git
+
+mkdir -p ~/.vim/bundle/dracula-theme
+git clone https://github.com/dracula/vim.git ~/.vim/bundle/dracula-theme
 
 mkdir -p ~/.vim/after/syntax/
 git clone https://github.com/octol/vim-cpp-enhanced-highlight.git ~/.vim/after/syntax
