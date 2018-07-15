@@ -11,6 +11,7 @@ let g:solarized_contrast="high"
 let g:solarized_visibility="high"
 " let g:solarized_termcolors=256
 colorscheme solarized
+" dracula-theme: ~/.vim/bundle/vim
 " colorscheme dracula
 
 let g:airline#extensions#tabline#enabled=1
