@@ -26,8 +26,5 @@ git clone https://github.com/Vimjas/vim-python-pep8-indent.git
 git clone https://github.com/Yggdroot/indentLine.git
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 
-mkdir -p ~/.vim/bundle/dracula-theme
-git clone https://github.com/dracula/vim.git ~/.vim/bundle/dracula-theme
-
 mkdir -p ~/.vim/after/syntax/
 git clone https://github.com/octol/vim-cpp-enhanced-highlight.git ~/.vim/after/syntax

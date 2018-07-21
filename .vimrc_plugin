@@ -11,7 +11,6 @@ let g:solarized_contrast="high"
 let g:solarized_visibility="high"
 " let g:solarized_termcolors=256
 colorscheme solarized
-" colorscheme dracula
 
 let g:airline#extensions#tabline#enabled=1
 let g:tagbar_ctags_bin='/usr/local/bin/ctags'
