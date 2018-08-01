@@ -24,7 +24,6 @@ git clone https://github.com/xolox/vim-misc.git
 git clone https://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/Vimjas/vim-python-pep8-indent.git
 git clone https://github.com/Yggdroot/indentLine.git
-git clone https://github.com/nvie/vim-flake8.git
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 
 mkdir -p ~/.vim/after/syntax/
