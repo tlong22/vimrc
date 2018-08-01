@@ -3,11 +3,11 @@
 cp .vimrc  ~/.vimrc
 cat .vimrc_plugin >> ~/.vimrc
 
-#install Pathogen
+# install Pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
-#install plugins
+# install plugins
 cd ~/.vim/bundle
 git clone https://github.com/tpope/vim-fugitive
 git clone https://github.com/majutsushi/tagbar
@@ -24,6 +24,7 @@ git clone https://github.com/xolox/vim-misc.git
 git clone https://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/Vimjas/vim-python-pep8-indent.git
 git clone https://github.com/Yggdroot/indentLine.git
+git clone https://github.com/nvie/vim-flake8.git
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 
 mkdir -p ~/.vim/after/syntax/
