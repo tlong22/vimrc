@@ -13,7 +13,7 @@ let g:solarized_visibility="high"
 colorscheme solarized
 
 let g:airline#extensions#tabline#enabled=1
-let g:tagbar_ctags_bin='/usr/local/bin/ctags'
+let g:tagbar_ctags_bin='/usr/bin/ctags'
 noremap <silent> <Leader>y :TagbarToggle<CR>
 
 let g:syntastic_auto_loc_list = 1
