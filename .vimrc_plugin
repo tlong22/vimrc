@@ -25,4 +25,5 @@ let g:syntastic_mode_map = {"mode": "passive"}
 noremap <F9> :SyntasticCheck<CR>
 noremap <F10> :SyntasticReset<CR>
 
-highlight ColorColumn ctermbg=DarkGray
+highlight ColorColumn ctermbg=DarkYellow
+let g:indentLine_char = '|'
