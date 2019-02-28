@@ -27,3 +27,4 @@ noremap <F10> :SyntasticReset<CR>
 
 highlight ColorColumn ctermbg=DarkYellow
 let g:indentLine_char = '|'
+let g:NERDTreeNodeDelimiter = "\u00a0"
